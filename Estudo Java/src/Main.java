@@ -14,26 +14,15 @@ public class Main {
         meuCarro.desligar();
 
 
-//        Caminhao meuCaminhao = new Caminhao();
-//
-//        meuCaminhao.modelo = "Scania";
-//        meuCaminhao.ano = 2022;
-//        meuCaminhao.cor = "verde";
-//
-//        meuCaminhao.ligar();
-//        meuCaminhao.carregarCarga();
-//        meuCaminhao.desligar();
+        Caminhao meuCaminhao = new Caminhao();
 
-        Veiculo minhaMoto = new Moto();
-        Veiculo meuCaminhao = new Caminhao();
-
-        minhaMoto.modelo = "Hornet";
         meuCaminhao.modelo = "Scania";
+        meuCaminhao.ano = 2022;
+        meuCaminhao.cor = "verde";
 
-        testarVeiculo(minhaMoto);
+        meuCaminhao.ligar();
+        meuCaminhao.carregarCarga();
+        meuCaminhao.desligar();
 
-        public static void testarVeiculo(Veiculo veiculo) {
-            veiculo.ligar();
-        };
     }
 }
